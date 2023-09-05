@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(3, 137, 220);
+    border-radius: 3px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+input{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    margin: 8px 0;
+}
+
+input::placeholder{
+    color: white;
+}
+.date_input[type=date]{
+    color: white;
+}
+
+button{
+    padding: 14px 25px;
+    width: 30%;
+    color:  rgb(3, 137, 220);
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h3{
+    color: white;
+}
