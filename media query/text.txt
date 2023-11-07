@@ -1,0 +1,3 @@
+Media query is a feature of css that allows content rendering to adapt different condition such as screen resolution. Media query ia a cornerstone technology of responsive web design.
+
+css color format.

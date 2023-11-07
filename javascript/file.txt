@@ -1,0 +1,9 @@
+    <h1>Hello and welcome to javascript class</h1>
+    <!-- <br/>
+    <br/>
+    <button onclick="alert('This is javascript course!!')">Click Me For An Alert!</button>
+    <br/>
+    <br/>
+    <div class="sentence">Hello world</div>
+    <p id="demo">I am the first welcome messsge</p>
+    <button onclick="document.getElementById('demo').innerHTML = 'Welcome to Javascript' ">Click for javascript second message</button> -->

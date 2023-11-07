@@ -1,0 +1,36 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+@media screen and (max-width: 768px){
+    .box{
+        background-color: blue;
+        border: 30px groove red;
+    }
+}
+#adah3{
+    color: rgb(255, 68, 0);
+}
+
+@media screen and (max-width: 768px){
+    #adah3{
+        color: rebeccapurple;
+        font-size: 50px;
+        font-style: italic;
+        background-color: black;
+    }
+}
+
+.tag{
+    color: tomato;
+}
+
+@media screen and (max-width: 768px){
+    .tag{
+        color: brown;
+        font-size: 65px;
+        background-color: black;
+    }
+}
