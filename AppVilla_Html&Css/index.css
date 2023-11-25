@@ -228,10 +228,13 @@ flex-wrap: wrap;
 }
 
 .square{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-color: #fc6a7f;
-    border-radius: 6px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section3{
     width: 100%;
@@ -258,6 +261,7 @@ flex-wrap: wrap;
         background-repeat: no-repeat;
         background-position: center;
 }
+
 .section3_h1{
     margin: 20px 0;
     /* font-size: 40px; */
@@ -276,5 +280,54 @@ flex-wrap: wrap;
 
 }
 
+.header_button2{
+    padding: 20px 40px;
+    border: none;
+    background-color: #fc6a7f;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.header_button2:hover{
+    background-color: black;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.section4{
+    width: 100%;
+    height: 100vh;
+    background-color :#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.right{
+    width: 50%;
+    height: 100%;
+    background-image: url("./Assets/app-ss1\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+.right_4{
+    width: 50%;
+    height: 100%;
+    background-image: url("./Assets/app-ss2\ \(1\).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.sub_section4{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
