@@ -161,7 +161,7 @@ body{
 }
 
 .button_wrap{
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,6 +199,7 @@ font-family: sans-serif;
     margin: 10px 35px;
 }
 
+
 .card_wrap{
 width: 100%;
 height: 65%;
@@ -206,6 +207,7 @@ height: 65%;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
+
 }
 
 .card{
@@ -218,6 +220,13 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+
+@media screen and(max-width: 425px){
+    .card{
+        background-color: green;
+    }
 }
 
 .card:hover{
@@ -243,6 +252,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px 0;
 }
 
 .sub_section3{
@@ -329,5 +339,216 @@ flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+
+.left_4{
+    font-family: poppins;
+    width: 45%;
+
+}
+
+
+.trustee_section{
+    width: 100%;
+    height: 70vh;
+    background-color: #FF6B81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_trustee{
+    width: 80%;
+    height: 70%;
+    /* background-color: rgb(154, 69, 154); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: poppins;
+  
+}
+
+.trustee_count{
+    width: 70%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trust_wrap{
+    width: 25%;
+    height: 90%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing_section{
+    width: 100%;
+    height: 110vh;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.sub_pricing_section{
+    width: 90%;
+    height: 90%;
+    /* background-color: orangered; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing_text_wrap{
+    width: 100%;
+    height: 30%;
+    /* background-color:rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+.pricing_card_wrap{
+    width: 100%;
+    height: 65%;
+    /* background-color: rgb(61, 0, 61); */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pricing_card{
+    width: 22%;
+    height: 90%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.pricing_card:hover{
+    /* cursor: pointer; */
+    transition: 400ms;
+    margin-top: -8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.pricing_button{
+    padding: 13px 48px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pricing_button:hover{
+    background-color: #fc6a7f;
+    transition: 500ms;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: black
+}
+
+.icon_pack{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    /* background-color: red; */
+}
+
+.team_section{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_team_section{
+    width: 90%;
+    height: 90%;
+    /* background-color: rgb(255, 77, 0); */
+}
+
+.team_card_wrap{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    }
+
+    .team_card{
+        width: 30%;
+        height: 50%;
+        background-color: white;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .team_card:hover{
+        /* cursor: pointer; */
+        transition: 400ms;
+        margin-top: -8px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .team_image{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+    .team_details{
+        width: 90%;
+        height: 50%;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .team_det_right{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: green; */
+    }
+
+    .team_det_right img{
+        width: 20px;
+        height: 20px;
+    }
+
+
 
 

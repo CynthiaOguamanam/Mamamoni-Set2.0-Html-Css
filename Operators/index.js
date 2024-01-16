@@ -9,7 +9,6 @@
 7. Decrement: The decrement operator in JavaScript is represented by --, and it's used to decrease the value of a variable by 1. It's a shortcut for subtracting 1 from the variable.
 */
 
-const { getToPathname } = require("@remix-run/router");
 
 let xyz = 10;
 let zxy = 20;
@@ -166,6 +165,151 @@ console.log("the result of p is",!p); // Output will be false
 console.log("the result of q is",!q); // Output will be true
 
 
+
+
+
+
+let AS = 10;
+AS += 5;
+console.log(AS);
+
+let AA = 15;
+AA -= 5;
+console.log(AA);
+
+let SS = 23;
+SS *= 2;
+console.log("result of SS is",SS);
+
+
+let logIn = 5;
+let logOut = 10;
+let logOn = 15;
+let logResult = logIn < logOut && logOut < logOn;
+console.log("Logical And is", !logResult);
+
+
+/* 
+Javascript Comparison operators: It is used to compare two values.
+A comparison operator returns a boolean value indicating that the comparisons true or false.
+less than (<); greater than(>); equal to (==); strictly equal(===); Less than or equal to(<=);
+greater than or qual to(>=); not equal to(!=); not strictly equal to (!==);
+*/
+let R1 = 7 < 3;
+let R2 = 10 > 3;
+let R3 = 0 < -5;
+
+console.log(R1);
+console.log(R2);
+console.log(R3);
+
+let R4 = 10 == 20;
+console.log(R4);
+
+let R5 = 20;
+let R6 = 23;
+console.log(R5 <= R6);
+
+let R55 = 23;
+let R66 = 23;
+console.log("23 <= 23",R55 <= R66);
+
+//comparing number with string;
+let R7 = 10 < "20";
+console.log(R7);
+
+let R8 = 10 == "10";
+console.log(R8);
+
+//strictly equal to(===)
+let R9 = 10 === "10";
+console.log("strictly equal to",R9);
+
+//not strictly equal to(!==)
+let RR1 = 10 !== "10";
+console.log("!==",RR1);
+
+//not equal to(!=)
+let RR2 = 10 != "10";
+console.log("!=",RR2);
+
+//converting string to number
+//parseInt is a javascript method used to convert strings to numbers... 
+let Pas = "10"
+console.log(parseInt(Pas));
+
+
+/*
+JavaScript keywords are reserved words that have predefined meanings in the language. These words serve specific purposes and cannot be used for variable names or identifiers within the code. Here are some of the JavaScript keywords:
+
+var, let, const: Used for variable declaration.
+if, else, else if: Used for conditional statements.
+for, while, do...while: Used for loop structures.
+switch, case, break: Used for switch case statements.
+function, return: Used for defining and returning functions.
+try, catch, throw: Used for exception handling.
+class, extends, constructor: Used for object-oriented programming.
+import, export: Used for module imports and exports (ES6 and later).
+
+In JavaScript, the if...else statement allows you to execute different blocks of code based on specified conditions. 
+
+if(){
+
+}else{
+    
+}
+
+if (condition1) {
+    // Code to execute if condition1 is true
+} else if (condition2) {
+    // Code to execute if condition2 is true
+} else {
+    // Code to execute if none of the conditions are true
+}
+*/
+
+if(2 > 1){
+    console.log("This is true");
+}else{
+    console.log("This is false");
+};
+
+
+
+let num = 10;
+if (num > 10) {
+    console.log("Number is greater than 10");
+} else if (num === 10) {
+    console.log("Number is exactly 10");
+} else {
+    console.log("Number is less than 10");
+};
+
+
+let num2 = 20;
+if (num2 > 10) {
+    console.log("Number is greater than 10");
+} else if (num2 === 10) {
+    console.log("Number is exactly 10");
+} else {
+    console.log("Number is less than 10");
+};
+
+
+
+let num3 = 20;
+if (num3 < 10) {
+    console.log("Number is greater than 10");
+} else if (num3 === 10) {
+    console.log("Number is exactly 10");
+} else {
+    console.log("Number is less than 10");
+}
+
+/* Assignment: Read, study and run working code examples on each of them..
+switch case, break: Used for switch case statements.
+ for, while, do...while: Used for loop structures.
+*/
 
 
 
